@@ -21,4 +21,4 @@ RUN python -m pip install -r requirements.txt
 CMD ["uwsgi","--ini","app.ini"]
 
 #Expose port 90 of the container to the outside
-EXPOSE 90
+EXPOSE 80
